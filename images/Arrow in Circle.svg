@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="39" viewBox="0 0 38 39">
+  <g id="Arrow_in_Circle" data-name="Arrow in Circle" transform="translate(-0.253 0.313)">
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="19" cy="19.5" rx="19" ry="19.5" transform="translate(0.253 -0.313)" fill="#fff" opacity="0.39"/>
+    <path id="arrow" d="M0,7.382,8.126,0l8.126,7.382" transform="translate(27.312 22.878) rotate(180)" fill="none" stroke="#fff" stroke-width="5"/>
+  </g>
+</svg>

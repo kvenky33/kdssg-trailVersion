@@ -1,0 +1,826 @@
+:root {
+  --font-mont: "Montserrat";
+  --font-family: "Segoe UI";
+  --red: #e71013;
+  --white: #ffffff;
+  --black: #000;
+  --lightgray: #f8f8f8;
+}
+
+.modal .modal-header button {
+  background-image: url("https://www.kdssg.com/img/header-logo-section/alert-close.svg");
+}
+
+/* **********************Top Nav **************************** */
+
+.top-nav {
+  background-color: var(--black);
+  height: 50px;
+}
+.top-nav .nav-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-mont);
+  color: var(--white);
+}
+.top-nav .nav-contacts .phone-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.top-nav .nav-contacts .email-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+.top-nav .nav-contacts .phone-number,
+.top-nav .nav-contacts .mail-id {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 45px;
+  letter-spacing: 0.34px;
+}
+.phone-number::after {
+  content: "|";
+  color: var(--white);
+  margin: 0px 5px 0px 12px;
+  font-weight: 500;
+}
+
+/* **********************************Nav-section*************************************************************** */
+.nav-section {
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  font-family: var(--font-family);
+}
+.nav-section .navbar-nav a {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 26px;
+  color: hsl(0, 0%, 27%);
+  margin-right: 5px;
+}
+.nav-section .navbar-nav a:first-child {
+  background-color: var(--red);
+  color: var(--white);
+
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 26px;
+  border-radius: 5px;
+  padding-left: 18px;
+  width: 220px;
+  margin-right: 10px;
+}
+.nav-section .navbar-nav a:first-child::after {
+  content: " ";
+  width: 20px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 15px;
+  background-image: url(./images/arrow.svg);
+  background-repeat: no-repeat;
+}
+.nav-section .navbar-nav a:last-child {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 26px;
+  color: #e71212;
+}
+
+/* ******************Offer section**************************** */
+.offer-add .offer {
+  background-color: var(--red);
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  height: 50px;
+  letter-spacing: 0.53px;
+  padding: 5px 50px 0px 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
+}
+.offer-add .offer button {
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  background-image: url("https://www.kdssg.com/img/header-logo-section/alert-close.svg");
+  background-color: #ffcbcb;
+  border: 1px solid #ffcbcb;
+}
+
+/* ****************Header css************************* */
+.header-lgdevices,
+.header-smdevices {
+  font-family: var(--font-family);
+}
+.header-lgdevices .header {
+  background-image: url(./images/Bg\ Image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 600px;
+}
+.header-lgdevices .header .header-text {
+  width: 420px;
+  position: absolute;
+  top: 380px;
+}
+.header-lgdevices .header .header-text h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+}
+.header-lgdevices .header .header-text .header-btn {
+  background: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  width: 233px;
+  height: 87px;
+  margin-top: 50px;
+}
+.header-lgdevices .header .header-text .header-btn a {
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 41px;
+  text-decoration: none;
+  color: var(--white);
+}
+.header-lgdevices .header .header-text .header-btn a::after {
+  content: " ";
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(./images/arrow.svg);
+  background-repeat: no-repeat;
+  transform: rotate(270deg);
+  margin: 20px 0px 0px 20px;
+}
+.header-smdevices {
+  display: none;
+}
+.header-smdevices h1 {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+}
+.header-smdevices .header-btn {
+  width: 200px;
+  height: 60px;
+  background: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 5px;
+}
+.header-smdevices .header-btn a {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  text-decoration: none;
+  color: var(--white);
+}
+.header-smdevices .header-btn a::after {
+  content: " ";
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(./images/arrow.svg);
+  background-repeat: no-repeat;
+  transform: rotate(270deg);
+  margin: 20px 0px 0px 20px;
+}
+/* ************About css******************** */
+.about-section {
+  background-color: var(--red);
+  color: #ffffff;
+  font-family: var(--font-family);
+}
+.about-section .abt-right {
+  width: 420px;
+  height: 360px;
+  border: 20px solid #ffffff;
+  position: relative;
+}
+
+.about-section .abt-right-text {
+  font-weight: bold;
+  background-color: var(--red);
+  width: 360px;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 60px;
+  left: 68px;
+}
+.about-section .abt-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-section .abt-left .abt-head {
+  font-weight: bold;
+
+  font-size: 42px;
+  line-height: 74px;
+}
+.about-section .abt-left .abt-subhead {
+  font-size: 42px;
+  line-height: 56px;
+}
+.about-section .abt-left .explore-btn {
+  background-color: #fa787c;
+  color: #ffffff;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #fa787c;
+}
+.about-section .abt-left .explore-btn p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  padding-top: 10px;
+}
+.about-section .abt-left .explore-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.about-section .abt-left .reverse-arrow {
+  transform: rotate(180deg);
+}
+.about-section .abt-left .less-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-section .abt-left .more-content {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ************Why Kdssg******************** */
+.why-kdssg {
+  font-family: var(--font-family);
+}
+.why-kdssg .heading {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 85px;
+}
+.why-kdssg .heading span {
+  color: var(--red);
+}
+.why-kdssg p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #656565;
+}
+.why-kdssg .accordion-button {
+  background-color: var(--red);
+  color: var(--white);
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid var(--red);
+}
+.why-kdssg .accordion-body {
+  border: 1px solid var(--red);
+}
+.accordion-button:focus {
+  box-shadow: none;
+  z-index: 1;
+}
+
+.why-kdssg .accordion-button::after {
+  background-image: url("https://www.kdssg.com/img/why-kdssg/Polygon-red.svg");
+}
+.why-kdssg .accordion-button.collapsed::after {
+  background-image: url(./images/Polygon\ 1.svg);
+}
+
+.why-kdssg .accordion-button:not(.collapsed) {
+  background-color: var(--white);
+  color: var(--red);
+}
+
+/* ********************Training section**************************************** */
+.training-section {
+  font-family: var(--font-family);
+}
+
+.training-section .heading {
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--red);
+  line-height: 85px;
+}
+.training-section .card {
+  background: linear-gradient(
+    137deg,
+    #ffffff 0%,
+    #ffffff 30%,
+    #f6f6f6 69%,
+    #ececec 100%
+  );
+}
+.training-section .card .card-title {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #033333;
+}
+.training-section .card .card-text {
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+}
+.training-section .card .card-body .batch-start {
+  background-image: url(./images/Path\ 2.svg);
+  background-repeat: no-repeat;
+  height: 30px;
+  padding: 5px 0px 0px 25px;
+  display: flex;
+  gap: 10px;
+}
+.training-section .card .card-body .batch-start span {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: var(--white);
+}
+.training-section .card .card-body .batch-details li {
+  list-style: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.training-section .card .card-body .batch-details li:first-child {
+  font-weight: normal;
+}
+.training-section .card .card-body .batch-details .batch-timings li {
+  list-style: none;
+  font-weight: normal;
+  margin-top: 5px;
+}
+/* *************Testimonials********************* */
+/* -----------------Reviews section----------------------------------*/
+.reviews-section {
+  background-color: var(--lightgray);
+  font-family: var(--font-family);
+}
+.reviews-section h2 {
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+
+  color: #303030;
+}
+.reviews-section .carousel {
+  position: relative;
+}
+
+.reviews-section .carousel .carousel-indicators button {
+  background-color: var(--red);
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+}
+.reviews-section .carousel .carousel-control-prev,
+.reviews-section .carousel .carousel-control-next {
+  background-color: #fa787c;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 220px;
+  border-radius: 50%;
+}
+.reviews-section .carousel .carousel-inner .carousel-data-head span {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 47px;
+  color: #303030;
+}
+
+.reviews-section .carousel .carousel-inner .carousel-data-subhead p {
+  font-size: 24px;
+  line-height: 38px;
+  color: #303030;
+}
+.reviews-section .carousel .carousel-inner .carousel-data-subhead span {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 47px;
+  color: #303030;
+}
+.reviews-section .carousel .carousel-inner .carousel-data-para {
+  font-size: 25px;
+  line-height: 35px;
+
+  color: #656565;
+}
+/* ****vedio review*** */
+.vedio-review {
+  background-color: var(--red);
+}
+.vedio-review p {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+
+  color: var(--white);
+}
+/* ***** form section******** */
+.Registration-form {
+  background-color: var(--lightgray);
+  font-family: var(--font-mont);
+}
+.Registration-form .heading {
+  text-align: center;
+  color: var(--red);
+
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  letter-spacing: 1.26px;
+}
+.Registration-form input,
+.Registration-form .form-select,
+.Registration-form textarea {
+  width: 100%;
+
+  padding: 5px 10px;
+  margin-top: 20px;
+  border: 1px solid #e6e3e3;
+  border-radius: 5px;
+}
+
+.Registration-form .register-btn {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0.78px;
+  background-color: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+/* *************Footer css****************** */
+.footer-top {
+  background-color: var(--black);
+
+  color: var(--white);
+}
+.footer-top .footer-left .logo-part p {
+  font-size: 35px;
+  line-height: 47px;
+  font-family: var(--font-family);
+}
+.footer-top .footer-left {
+  border-right: 1px solid #656565;
+}
+.footer-top .footer-left .address-part .address {
+  text-align: center;
+  font-family: var(--font-mont);
+  font-size: 24px;
+  line-height: 24px;
+}
+.footer-top .hr-line {
+  display: none;
+}
+.footer-top .footer-right .head {
+  font-family: var(--font-family);
+  font-size: 38px;
+  line-height: 51px;
+  font-weight: bold;
+}
+
+.footer-top .footer-right .contacts img {
+  width: 50px;
+  height: 50px;
+}
+.footer-top .footer-right .contacts p {
+  font-family: var(--font-mont);
+  font-size: 28px;
+}
+.footer-top .footer-right .social-media li {
+  list-style: none;
+}
+.footer-top .footer-right .social-media li::after {
+  content: "|";
+
+  color: #656565;
+  margin: 0px 10px;
+}
+.footer-top .footer-right .social-media li:last-child::after {
+  content: " ";
+}
+.footer-bottom {
+  background-color: #4b4b4b;
+  font-family: var(--font-mont);
+}
+.footer-bottom p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 50px;
+
+  letter-spacing: 0.18px;
+  color: #ffffff;
+}
+.footer-bottom span {
+  font-weight: bold;
+}
+/* ***************************************************************************************** */
+/************************************* media queries ******************************************/
+/* ****************************************************************************************** */
+
+/* ************ccs for medium devices********** */
+@media screen and (max-width: 991px) {
+  .offer-add .offer {
+    font-size: 20px;
+    line-height: 26px;
+    height: 35px;
+
+    letter-spacing: 0.33px;
+  }
+  .offer-add .offer button {
+    width: 14px;
+    height: 14px;
+    margin-top: 0px;
+  }
+  /* ******header css******* */
+  .header-lgdevices .header {
+    height: 300px;
+    background-size: contain;
+    background-position: right;
+  }
+  .header-lgdevices .header .header-text {
+    width: 340px;
+
+    top: 280px;
+  }
+  .header-lgdevices .header .header-text h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+  }
+  .header-lgdevices .header .header-text .header-btn {
+    background: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 8px;
+    width: 160px;
+    height: 57px;
+    margin-top: 30px;
+  }
+  .header-lgdevices .header .header-text .header-btn a {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  /* ***********About css******************** */
+  .about-section .abt-right {
+    width: 280px;
+    height: 260px;
+    border: 12px solid #ffffff;
+  }
+
+  .about-section .abt-right-text {
+    width: 260px;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+
+    top: 40px;
+    left: 40px;
+  }
+  .about-section .abt-left .abt-head {
+    font-size: 36px;
+    line-height: 68px;
+  }
+  .about-section .abt-left .abt-subhead {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .about-section .abt-left .explore-btn p {
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+  .about-section .abt-left .explore-btn img {
+    width: 24px;
+    height: 24px;
+  }
+  /* ********* why kdssg************ */
+  .why-kdssg .heading,
+  .training-section .heading {
+    font-size: 56px;
+    line-height: 75px;
+  }
+  /* ***** review section***** */
+  .reviews-section .carousel .carousel-indicators {
+    position: absolute;
+    top: 700px;
+  }
+  .reviews-section .carousel .carousel-control-prev,
+  .reviews-section .carousel .carousel-control-next {
+    top: 400px;
+  }
+  .vedio-review .vedio-reviewImg {
+    width: 500px;
+  }
+  .vedio-review .white-quoteImg {
+    width: 80px;
+  }
+  /*  ***** form section *********/
+  .Registration-form .heading {
+    font-size: 53px;
+    line-height: 68px;
+    letter-spacing: 1 px;
+  }
+
+  /* *******fotter********* */
+  .footer-top .footer-left .logo-part p {
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .footer-top .footer-left .address-part .address {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .footer-top .footer-right .contacts img {
+    width: 35px;
+    height: 35px;
+  }
+  .footer-top .footer-right .contacts p {
+    font-size: 22px;
+  }
+}
+/* ************************************************************** */
+/* **************css for small decices*************************** */
+@media screen and (max-width: 767px) {
+  .offer-add .offer {
+    font-size: 16px;
+    line-height: 20px;
+    height: 30px;
+
+    letter-spacing: 0.2px;
+  }
+  .offer-add .offer button {
+    width: 10px;
+    height: 10px;
+  }
+  /* *******header*********** */
+  .header-lgdevices {
+    display: none;
+  }
+  .header-smdevices {
+    display: block;
+  }
+  /* ***** reviews section ******** */
+  .reviews-section h2,
+  .vedio-review p {
+    font-size: 46px;
+    line-height: 64px;
+  }
+  .reviews-section .carousel .carousel-indicators {
+    margin-top: 20px;
+    top: 720 px;
+  }
+  .vedio-review .vedio-reviewImg {
+    width: 400px;
+  }
+  .vedio-review .white-quoteImg {
+    width: 70px;
+  }
+  /* ***form section***** */
+  .Registration-form .heading {
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: 0.8 px;
+  }
+  .Registration-form input,
+  .Registration-form .form-select,
+  .Registration-form textarea {
+    font-size: 15px;
+  }
+  .Registration-form .form-select option {
+    font-size: 12px;
+  }
+  /* ****fotter section********* */
+  .footer-top .footer-left {
+    border-right: none;
+  }
+  .footer-top .hr-line {
+    display: block;
+  }
+}
+/* ***************************************************** */
+/* ***************css for very small devices************ */
+@media screen and (max-width: 575px) {
+  .nav-section .nav-logo {
+    width: 200px;
+  }
+
+  .top-nav .nav-contacts .phone-number,
+  .top-nav .nav-contacts .mail-id {
+    font-size: 12px;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+  }
+  /* *****offer alert****** */
+  .offer-add .offer {
+    font-size: 8px;
+    line-height: 16px;
+    height: 22px;
+    padding: 3px 25px;
+    letter-spacing: 0.1px;
+  }
+  .offer-add .offer button {
+    width: 10px;
+    height: 10px;
+  }
+  /* **** about section***** */
+  .about-section .abt-left .abt-head {
+    font-size: 28px;
+    line-height: 62px;
+  }
+  .about-section .abt-left .abt-subhead {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  /* ****** why kdssg ********** */
+  .why-kdssg .heading,
+  .training-section .heading {
+    font-size: 46px;
+    line-height: 65px;
+  }
+  /* ***** review section*********** */
+  .reviews-section .carousel .carousel-inner .carousel-data-head span {
+    font-size: 25px;
+
+    line-height: 42px;
+  }
+
+  .reviews-section .carousel .carousel-inner .carousel-data-subhead p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .reviews-section .carousel .carousel-inner .carousel-data-subhead span {
+    font-size: 16px;
+
+    line-height: 42px;
+  }
+  .reviews-section .carousel .carousel-inner .carousel-data-para {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .reviews-section h2,
+  .vedio-review p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .reviews-section .carousel .carousel-control-prev,
+  .reviews-section .carousel .carousel-control-next {
+    top: 360px;
+  }
+  .reviews-section .carousel .carousel-indicators {
+    margin-top: 15px;
+    top: 656px;
+  }
+  .vedio-review .vedio-reviewImg {
+    width: 240px;
+  }
+  .vedio-review .white-quoteImg {
+    width: 36px;
+  }
+  /* ***form section***** */
+  .Registration-form .heading {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.2 px;
+  }
+  .Registration-form input,
+  .Registration-form .form-select,
+  .Registration-form textarea {
+    font-size: 10px;
+  }
+  .Registration-form .form-select option {
+    font-size: 7px;
+  }
+}

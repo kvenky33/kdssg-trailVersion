@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>kdssg</title>
+  </head>
+
+  <body>
+    <!-- ****************************open modal*********************** -->
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">KDSSG</h4>
+            <button
+              type="button"
+              class="btn-close close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">KDSSG</div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- **********************************Top Nav************************************************************* -->
+
+    <div class="top-nav">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="nav-contacts">
+                <img
+                  src="./icons/phone-icon.svg"
+                  alt="phone-icon"
+                  class="phone-icon"
+                />
+                <p class="phone-number">+91 99167 99796</p>
+                <img
+                  src="./icons/email-icon.svg"
+                  alt="email-icon"
+                  class="email-icon"
+                />
+                <p class="mail-id">info@kdssg.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ****************************************Nav Bar********************************************************** -->
+    <div class="nav-section">
+      <div class="container-fluid">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./images/KDSSG-Logo-1.png"
+                  alt="nav-logo "
+                  class="nav-logo"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse d-lg-flex justify-content-end"
+                id="collapsibleNavbar"
+              >
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#training">Explore Trainings</a>
+
+                  <a class="nav-link" href="#about-us">About Us</a>
+
+                  <a class="nav-link" href="#why-kdssg">Why KDSSG</a>
+
+                  <a class="nav-link" href="#testimonials">Testimonials</a>
+
+                  <a class="nav-link" href="#contact-us">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- ************************************* offer section***************************************************** -->
+    <div id="alert" class="offer-add">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="d-flex justify-content-end">
+                <div
+                  class="alert offer d-flex gap-2 gap-sm-3 gap-md-5"
+                  role="alert"
+                >
+                  <p>Winter Limited Offer!</p>
+                  <a href="#" class="alert-link">15% Offer on all courses.</a>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    onclick="closeAlert()"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***********************************Header section***************************************************** -->
+    <div>
+      <div class="header-lgdevices">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="header">
+                <div class="header-text">
+                  <h1>Join our exclusive SQL & Azure Trainings.</h1>
+                  <button class="header-btn">
+                    <a href="#">Join Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---- -->
+      <div class="header-smdevices">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img
+                src="./images/Bg Image.png"
+                alt="banner-image"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-12">
+              <div class="mt-3 mb-5">
+                <h1>Join our exclusive SQL & Azure Trainings.</h1>
+                <button class="header-btn">
+                  <a href="#">Join Now</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******************************** About section    ***************************************** -->
+    <div id="about-us" class="about-section">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="py-5">
+            <div class="row">
+              <div
+                class="col-12 col-md-6 d-flex justify-content-center align-items-center justify-content-md-start"
+              >
+                <div class="abt-right">
+                  <div>
+                    <h2 class="abt-right-text">
+                      Knowledge & Dedicated SQL Server Group
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div
+                  class="abt-left d-flex flex-column justify-content-center align-items-center gap-md-3 mt-4 mt-md-0"
+                >
+                  <p class="abt-head">Welcome to KDSSG</p>
+                  <p class="abt-subhead">Center for Excellence</p>
+
+                  <div class="less-content" id="less-content">
+                    <p>
+                      A premier online training platform with a rich legacy of
+                      17 years in imparting comprehensive education in Microsoft
+                      Technologies like Azure Administration & SQL Server
+                      Database Administration. Our journey is marked by a
+                      relentless commitment to excellence and a steadfast
+                      dedication to shaping skilled professionals in the
+                      ever-evolving realm of cloud and data management...
+                    </p>
+                    <button
+                      class="explore-btn d-flex align-items-center justify-content-center gap-3"
+                      onclick=" aboutmore()"
+                    >
+                      <p>Read More About Us</p>
+                      <img
+                        src="./images/Arrow in Circle.svg"
+                        alt="circle-arrow"
+                      />
+                    </button>
+                  </div>
+                  <div class="more-content" id="more-content">
+                    <p>
+                      A premier online training platform with a rich legacy of
+                      17 years in imparting comprehensive education in Microsoft
+                      Technologies like Azure Administration & SQL Server
+                      Database Administration. Our journey is marked by a
+                      relentless commitment to excellence and a steadfast
+                      dedication to shaping skilled professionals in the
+                      ever-evolving realm of cloud and data management...
+                    </p>
+                    <p>
+                      Founded on the principles of knowledge, dedication, and
+                      innovation, KDSSG has been a pioneer in delivering
+                      top-notch Azure and SQL Server Database Administration
+                      courses that align with the dynamic industry landscape.
+                      Our seasoned instructors, boasting 20+ years of real-world
+                      experience, lead the way in providing insightful and
+                      practical training that goes beyond theory.
+                    </p>
+                    <p>
+                      At KDSSG, we prioritize the holistic development of our
+                      students. Our meticulously crafted curriculum combines
+                      foundational concepts with advanced techniques, ensuring
+                      that learners not only grasp the fundamentals but also
+                      become adept at tackling real-world challenges. Our
+                      hands-on approach equips students with practical skills,
+                      enabling them to navigate complex database environments,
+                      optimize performance, implement robust security measures,
+                      and orchestrate seamless disaster recovery strategies and
+                      meet industry standard and best grade performance.
+                    </p>
+                    <p>
+                      We take pride in our strong community of alumni, who have
+                      excelled in diverse sectors globally, a testament to the
+                      quality of education we offer. As technology continues to
+                      reshape industries, KDSSG Center for Excellence remains
+                      unwavering in its commitment to fostering expertise that
+                      empowers individuals and organizations to thrive in the
+                      digital age. Join us on this enriching journey, and
+                      together, let's unlock the boundless possibilities of
+                      learning in an engaging and aspirational way.
+                    </p>
+                    <button
+                      class="explore-btn d-flex align-items-center justify-content-center gap-3"
+                      onclick=" aboutless()"
+                    >
+                      <p>Read Less About Us</p>
+                      <img
+                        src="./images/Arrow in Circle.svg"
+                        alt="circle-arrow-reverse"
+                        class="reverse-arrow"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *************************Why Kdssg***************************************************** -->
+
+    <div id="why-kdssg" class="why-kdssg my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div>
+              <h3 class="heading">Why <span>KDSSG?</span></h3>
+              <p>
+                In an era driven by digital transformation, the right education
+                can serve as the key to unlocking a realm of opportunities.
+                KDSSG, a premier online training platform specializes in
+                delivering exceptional courses in SQL Server Database
+                Administration, Azure Administration and Azure for SQL Server
+                DBAs training programs. Embarking on a journey with KDSSG equips
+                you with cutting-edge skills and also opens doors to a plethora
+                of advantages that can shape your professional trajectory.
+              </p>
+              <p>
+                Here are three compelling reasons why joining KDSSG can be a
+                game-changer for your career:
+              </p>
+              <div class="accordion" id="accordionExample">
+                <!-- one -->
+                <div class="mt-3">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        1. A Door to Multiple Opportunities
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Enrolling in KDSSG courses opens the door to a world
+                          of multiple opportunities. SQL DBA, Azure
+                          Administration, and Azure for SQL Server DBA are in
+                          high demand across industries as organizations
+                          continue to rely heavily on Data Management and Cloud
+                          Solutions. Our meticulously crafted courses offer a
+                          strong foundation, propelling you towards a universe
+                          of possibilities. The comprehensive curriculum offered
+                          by KDSSG ensures you with the skills and knowledge
+                          necessary to succeed in these roles, positioning you
+                          as a valuable asset to employers seeking qualified
+                          professionals in these domains.
+                        </p>
+                        <p>
+                          At KDSSG, we understand the dynamic demands of the
+                          tech industry. Whether you are aiming for a career
+                          shift or aiming to enhance your current role, our
+                          curriculum empowers you with the expertise sought
+                          after by employers across diverse sectors. By honing
+                          these skills, you position yourself as a frontrunner
+                          in the competitive job market.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- two -->
+                <div class="mt-3">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        2. Lifelong Community Support
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Your journey with KDSSG doesn't conclude when the
+                          course ends—it's just the beginning. Upon joining, you
+                          become a part of a dynamic and supportive community
+                          that's committed to your growth and is present
+                          globally spanned across many countries. Our lifetime
+                          community support ensures that you can always seek
+                          advice, collaboration and stay updated on emerging
+                          trends. This vibrant network of like-minded learners
+                          and seasoned instructors becomes an invaluable
+                          resource, offering guidance and inspiration as you
+                          progress in your career.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- three -->
+                <div class="mt-3">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        3. Network with Trailblazing Industry Leaders
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p>
+                          Imagine connecting with visionaries and experts who've
+                          carved their niche in the industry. KDSSG offers you
+                          precisely that opportunity. Through a range of online
+                          and in-person webinars, workshops, and exclusive KDSSG
+                          Tech Unite networking events, you'll have direct
+                          access to professionals who have not only excelled but
+                          have also pioneered innovation in their respective
+                          domains. This interaction transcends the virtual
+                          realm, providing you with insights into the latest
+                          trends and strategies that are reshaping the industry
+                          landscape.
+                        </p>
+                        <p>
+                          In conclusion, KDSSG Online Training Platform stands
+                          as a beacon of opportunity for those aspiring to
+                          thrive in the realms of our cutting edge courses. With
+                          its comprehensive courses, networking prospects, and
+                          enduring community support, KDSSG empowers individuals
+                          to upskill and also unlock a world of possibilities in
+                          the dynamic landscape of cloud technology and data
+                          management. Seize the chance to transform your career
+                          trajectory by joining KDSSG today.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="./images/Image.png"
+              alt="student-image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p>
+            In conclusion, KDSSG Online Training Platform stands as a beacon of
+            opportunity for those aspiring to thrive in the realms of our
+            cutting edge courses. With its comprehensive courses, networking
+            prospects, and enduring community support, KDSSG empowers
+            individuals to upskill and also unlock a world of possibilities in
+            the dynamic landscape of cloud technology and data management. Seize
+            the chance to transform your career trajectory by joining KDSSG
+            today.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- *****************************Training Section********************************* -->
+
+    <div id="training" class="training-section mb-5">
+      <div class="container">
+        <h2 class="heading">Training</h2>
+        <div class="row mt-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="m-2">
+              <div class="card">
+                <img
+                  src="./images/sqlCourse Image.png"
+                  class="card-img-top"
+                  alt="sql-server-logo"
+                />
+                <div class="card-body ps-0">
+                  <!-- ***card-top*** -->
+                  <div class="m-2 p-2 m-md-3 p-md-3">
+                    <h5 class="card-title">SQL Server DBA</h5>
+                    <p class="card-text">
+                      Structured Query Language Database Administrator is one of
+                      the many people who help maintain users and resources for
+                      a company's database.
+                    </p>
+                  </div>
+                  <!-- ***card-middle*** -->
+                  <div class="batch-start">
+                    <span>New Batch Starts on</span>
+                    <span>11 August,2023 </span>
+                  </div>
+                  <!-- ***card-bottom*** -->
+                  <div class="batch-details my-3">
+                    <ul>
+                      <li>
+                        <img src="./icons/Icon.svg" alt="person-icon" />
+                        <span>Krishna Deepak, Praveen</span>
+                      </li>
+                      <li>
+                        <img src="./icons/online-icon.svg" alt="online-icon" />
+                        <span>Online</span>
+                      </li>
+                      <li>
+                        <img src="./icons//clock-icon.svg" alt="clock-icon" />
+                        <span
+                          >Every Day Two Batches
+                          <ul class="batch-timings">
+                            <li>06:15 AM to 07:30 AM IST</li>
+                            <li>08:45 AM to 10:00 AM IST</li>
+                          </ul>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- **** -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="m-2">
+              <div class="card">
+                <img
+                  src="./images/azureCourse Image.png"
+                  class="card-img-top"
+                  alt="azureCourse"
+                />
+                <div class="card-body ps-0">
+                  <!-- ***card-top*** -->
+                  <div class="m-2 p-2 m-md-3 p-md-3">
+                    <h5 class="card-title">Azure Administration</h5>
+                    <p class="card-text">
+                      implements, manages, and monitors identity, governance,
+                      storage, compute, and virtual networks in a cloud
+                      environment.
+                    </p>
+                  </div>
+                  <!-- ***card-middle*** -->
+                  <div class="batch-start">
+                    <span>New Batch Starts on</span>
+                    <span>11 August,2023 </span>
+                  </div>
+                  <!-- ***card-bottom*** -->
+                  <div class="batch-details my-3">
+                    <ul>
+                      <li>
+                        <img src="./icons/Icon.svg" alt="person-icon" />
+                        <span>Krishna Deepak, Praveen</span>
+                      </li>
+                      <li>
+                        <img src="./icons/online-icon.svg" alt="online-icon" />
+                        <span>Online</span>
+                      </li>
+                      <li>
+                        <img src="./icons//clock-icon.svg" alt="clock-icon" />
+                        <span
+                          >Every Day Two Batches
+                          <ul class="batch-timings">
+                            <li>06:15 AM to 07:30 AM IST</li>
+                            <li>08:45 AM to 10:00 AM IST</li>
+                          </ul>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- **** -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="m-2">
+              <div class="card">
+                <img
+                  src="images/azureSqlCourse Image.png"
+                  class="card-img-top"
+                  alt="azureSqlCourse"
+                />
+                <div class="card-body ps-0">
+                  <!-- ***card-top*** -->
+                  <div class="m-2 p-2 m-md-3 p-md-3">
+                    <h5 class="card-title">
+                      Azure for SQL Server Experienced DBAs
+                    </h5>
+                    <p class="card-text">
+                      Structured Query Language Database Administrator is one of
+                      the many people who .....
+                    </p>
+                  </div>
+                  <!-- ***card-middle*** -->
+                  <div class="batch-start">
+                    <span>New Batch Starts on</span>
+                    <span>11 August,2023 </span>
+                  </div>
+                  <!-- ***card-bottom*** -->
+                  <div class="batch-details my-3">
+                    <ul>
+                      <li>
+                        <img src="./icons/Icon.svg" alt="person-icon" />
+                        <span>Krishna Deepak, Praveen</span>
+                      </li>
+                      <li>
+                        <img src="./icons/online-icon.svg" alt="online-icon" />
+                        <span>Online</span>
+                      </li>
+                      <li>
+                        <img src="./icons//clock-icon.svg" alt="clock-icon" />
+                        <span
+                          >Every Day Two Batches
+                          <ul class="batch-timings">
+                            <li>06:15 AM to 07:30 AM IST</li>
+                            <li>08:45 AM to 10:00 AM IST</li>
+                          </ul>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************Testimonial**************** -->
+    <div id="testimonials" class="reviews-section py-5">
+      <div class="container-fluid">
+        <div class="container">
+          <h2>Reviews of Our Learners</h1>
+
+          <!-- ******carousel******** -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <!-- *****item-1***** -->
+              <div class="carousel-item active">
+                <div
+                  class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start"
+                >
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/Reviewer Image.png"
+                      alt="Reviewer"
+                      class="m-lg-5"
+                    />
+                  </div>
+                  <div
+                    class="d-flex flex-column align-items-center align-items-lg-start gap-2 m-lg-3"
+                  >
+                    <div
+                      class="carousel-data-head d-flex align-items-center justify-content-center gap-2 ms-3"
+                    >
+                      <img src="./icons/quote-icon.svg" alt="red-quoteIcon" />
+                      <span class="pt-4">Mr. Ratan Kumar</span>
+                    </div>
+                    <div
+                      class="carousel-data-subhead d-flex align-items-center justify-content-center"
+                    >
+                      <img src="./images/Company Logo.svg" alt="company-logo" />
+                      <div>
+                        <p class="mb-0">SQL Database Administrator</p>
+
+                        <span>At Google</span>
+                      </div>
+                    </div>
+                    <div class="carousel-data-para">
+                      <p>
+                        I have enrolled for SQL Server DBA. I am satisfied with
+                        all content which included in our syllabus. Method of
+                        teaching is good. Faculty clear all our doubts and staff
+                        is also supportive. It was amazing experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- *****item-2****** -->
+              <div class="carousel-item">
+                <div
+                  class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start"
+                >
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/Reviewer Image.png"
+                      alt="Reviewer"
+                      class="m-lg-5"
+                    />
+                  </div>
+                  <div
+                    class="d-flex flex-column align-items-center align-items-lg-start gap-2 m-lg-3"
+                  >
+                    <div
+                      class="carousel-data-head d-flex align-items-center justify-content-center gap-2 ms-3"
+                    >
+                      <img src="./icons/quote-icon.svg" alt="red-quoteIcon" />
+                      <span class="pt-4">Mr. Ratan Kumar</span>
+                    </div>
+                    <div
+                      class="carousel-data-subhead d-flex align-items-center justify-content-center"
+                    >
+                      <img src="./images/Company Logo.svg" alt="company-logo" />
+                      <div>
+                        <p class="mb-0">SQL Database Administrator</p>
+
+                        <span>At Google</span>
+                      </div>
+                    </div>
+                    <div class="carousel-data-para">
+                      <p>
+                        I have enrolled for SQL Server DBA. I am satisfied with
+                        all content which included in our syllabus. Method of
+                        teaching is good. Faculty clear all our doubts and staff
+                        is also supportive. It was amazing experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ****item-3********* -->
+              <div class="carousel-item">
+                <div
+                  class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start"
+                >
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                      src="./images/Reviewer Image.png"
+                      alt="Reviewer"
+                      class="m-lg-5"
+                    />
+                  </div>
+                  <div
+                    class="d-flex flex-column align-items-center align-items-lg-start gap-2 m-lg-3"
+                  >
+                    <div
+                      class="carousel-data-head d-flex align-items-center justify-content-center gap-2 ms-3"
+                    >
+                      <img src="./icons/quote-icon.svg" alt="red-quoteIcon" />
+                      <span class="pt-4">Mr. Ratan Kumar</span>
+                    </div>
+                    <div
+                      class="carousel-data-subhead d-flex align-items-center justify-content-center"
+                    >
+                      <img src="./images/Company Logo.svg" alt="company-logo" />
+                      <div>
+                        <p class="mb-0">SQL Database Administrator</p>
+
+                        <span>At Google</span>
+                      </div>
+                    </div>
+                    <div class="carousel-data-para">
+                      <p>
+                        I have enrolled for SQL Server DBA. I am satisfied with
+                        all content which included in our syllabus. Method of
+                        teaching is good. Faculty clear all our doubts and staff
+                        is also supportive. It was amazing experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- --- -->
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <!-- **** -->
+        </div>
+      </div>
+    </div>
+
+    <!-- *******Vedio Review*************** -->
+    <div class="vedio-review">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="py-2 py-md-4">What Our Students Say</p>
+              <div class="p-5 d-flex align-items-start gap-2">
+                <img
+                  src="icons/Whitequote-icon.svg"
+                  alt="Whitequote-icon"
+                  class="white-quoteImg"
+                />
+                <img
+                  src="./images/Video Review.png"
+                  alt="vedio-review"
+                  class="vedio-reviewImg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *************Registration Form*************** -->
+    <div class="Registration-form py-5">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="heading pb-3">
+            <span>Register The Course</span>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <input type="text" placeholder="Name*" required />
+            </div>
+            <div class="col-6">
+              <input type="number" placeholder="Mobile number*" required />
+            </div>
+          </div>
+          <!-- --- -->
+          <div class="row">
+            <div class="col-6">
+              <input type="email" placeholder="Email*" required />
+            </div>
+            <div class="col-6">
+              <select class="form-select" aria-label="Default select example">
+                <option selected value="select a course">
+                  ---select a course---
+                </option>
+                <option value="SQL server DBA">SQL server DBA</option>
+                <option value="Azure Administration">
+                  Azure Administration
+                </option>
+                <option value="Azure For SQL Server Experienced DBAs">
+                  Azure For SQL Server Experienced DBAs
+                </option>
+              </select>
+            </div>
+          </div>
+          <!-- ---- -->
+          <div class="row">
+            <div class="col-12">
+              <textarea placeholder="Message"></textarea>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center mt-3">
+            <button class="register-btn">
+              <span>Register</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************Footer contact section******************** -->
+    <div id="contact-us">
+      <div class="footer-top py-5">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <!-- **********footer-left*************** -->
+              <div class="col-12 col-md-6">
+                <div class="footer-left d-flex flex-column gap-5 px-md-4">
+                  <!-- ************** -->
+                  <div class="logo-part">
+                    <img
+                      src="./images/KDSSG-Logo.png"
+                      alt="kdssg-logo"
+                      class="img-fluid"
+                    />
+                    <p>Center for Excellence</p>
+                  </div>
+                  <!-- *************** -->
+                  <div class="address-part d-flex">
+                    <img src="./icons/location-icon.svg" alt="location-icon" />
+                    <div class="address">
+                      <p class="mb-0">Online Training Platform,</p>
+                      <p class="mb-0">Banglore</p>
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="my-5 hr-line" />
+              </div>
+
+              <!-- ** -->
+
+              <!-- ***********footer-right**************** -->
+              <div class="col-12 col-md-6">
+                <div class="footer-right d-flex flex-column gap-4 ps-lg-5">
+                  <span class="head">Contact Us</span>
+                  <div class="contacts">
+                    <div class="d-flex gap-3">
+                      <img src="./icons/phone-icon.svg" alt="phone-icon" />
+                      <p>+91 99167 99796</p>
+                    </div>
+                    <div class="d-flex gap-3">
+                      <img src="./icons/email-icon.svg" alt="email-icon" />
+                      <p>info@kdssg.com</p>
+                    </div>
+                  </div>
+                  <ul class="social-media d-flex">
+                    <li>
+                      <img src="icons/fb-logo.svg" alt="facebook-icon" />
+                    </li>
+                    <li><img src="icons/insta-logo.svg" alt="insta-icon" /></li>
+                    <li>
+                      <img src="icons/twitter-logo.svg" alt="twitter-icon" />
+                    </li>
+                    <li>
+                      <img src="icons/linkedin-logo.svg" alt="linkedin-icon" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-3">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <p>2023 ©KDSSG. ALL RIGHTS RESERVED.</p>
+              </div>
+              <div class="col-12 col-md-6">
+                <p>DESIGNED & DEVELOPED BY : <span>REESANIT.COM</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
